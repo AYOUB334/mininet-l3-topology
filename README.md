@@ -19,6 +19,12 @@ A complete demonstration of Layer 3 routing in Mininet using a Linux host as rou
 - Wireshark (for capture analysis)
 - POX controller (optional)
 
+## Installation de POX
+
+1. Cloner le dépôt officiel :
+```bash
+git clone https://github.com/noxrepo/pox
+
 ## Quick Start
 
 ```bash
