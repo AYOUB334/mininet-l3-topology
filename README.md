@@ -32,9 +32,14 @@ git clone https://github.com/noxrepo/pox
 # Clone repository
 git clone https://github.com/your-username/mininet-pox-demo.git
 cd mininet-pox-demo
+```
 
 # Run topology (without POX)
+```bash
 sudo python3 topo_pox.py
+```
 
 # Run POX controller (in separate terminal)
+```bash
 sudo python2 pox/pox.py forwarding.l2_learning
+```
