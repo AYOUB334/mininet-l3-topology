@@ -1,6 +1,5 @@
 # Mininet L3 Router Implementation
 
-![Network Topology](docs/topology.png)
 
 A complete demonstration of Layer 3 routing in Mininet using a Linux host as router, with POX controller support.
 
@@ -30,5 +29,5 @@ cd mininet-pox-demo
 # Run topology (without POX)
 sudo python3 topo_pox.py
 
-# Or with POX controller (in separate terminal)
+# Run POX controller (in separate terminal)
 sudo python2 pox/pox.py forwarding.l2_learning
